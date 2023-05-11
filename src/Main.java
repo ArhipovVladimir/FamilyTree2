@@ -2,7 +2,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<FamilyTreee> FamilyTreee = new FamilyTreee();
+        FamilyTreee FamilyTreee = new FamilyTreee();
 
         Human Human1 = new Human("Evg", "m", null, null);
         Human Human2 = new Human("Motr", "f", null, null);
@@ -17,9 +17,7 @@ public class Main {
            System.out.println(FamilyTreee);
              }
 
-        {
 
-        }
 
     }
 

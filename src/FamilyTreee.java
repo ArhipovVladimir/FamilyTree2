@@ -9,10 +9,9 @@ public class FamilyTreee  {
     public FamilyTreee(List<Human> humans) {
         this.humans = humans;    }
 
-    public  void add (Human human){
-        human.add(human);
 
-
+    public static void add (Human human) {
+        FamilyTreee.add(human);
     }
 }
 

@@ -13,9 +13,12 @@ public class Main {
         FamilyTreee.add(Human3);
         FamilyTreee.add(Human4);
 
-        for (FamilyTreee familyTreee : FamilyTreee) {
-           System.out.println(FamilyTreee);
-             }
+        for (Human: FamilyTreee) {
+            System.out.println(Human);
+
+        }
+
+
 
 
 

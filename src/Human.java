@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.UnaryOperator;
 
-public class Human extends FamilyTreee {
+public class Human  {
     String name;
     String gender;
     String father;
@@ -78,9 +78,6 @@ public class Human extends FamilyTreee {
                 '}';
     }
 
-    @Override
-    public void replaceAll(UnaryOperator<FamilyTreee> operator) {
-        super.replaceAll(operator);
-    }
+
 }
 

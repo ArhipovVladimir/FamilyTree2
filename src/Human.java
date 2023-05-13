@@ -12,9 +12,9 @@ public class Human  {
     public Human (String name, String gender) {
         this.name = name;
         this.gender = gender;
-        String father = null;
-        String mother = null;
-        List<Human> childern = null;
+        String father;
+        String mother;
+        List<Human> childern;
 
     }
     public Human (String name, String gender, String father, String mother) {

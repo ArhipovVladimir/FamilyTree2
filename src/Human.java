@@ -2,12 +2,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.UnaryOperator;
 
-public class Human  {
-    String name;
-    String gender;
-    String father;
-    String mother;
-    List<Human> childern;
+public class Human implements Comparable <Human> {
+   private String name;
+   private String gender;
+   private String father;
+   private String mother;
+   private List<Human> childern;
+
+    public Human () {
+    }
 
     public Human (String name, String gender) {
         this.name = name;
@@ -22,7 +25,7 @@ public class Human  {
         this.gender = gender;
         this.father = father;
         this.mother = mother;
-        List<Human> childern = null;
+        List<Human> childern;
 
 
     }
@@ -77,7 +80,9 @@ public class Human  {
                 ", childern=" + childern +
                 '}';
     }
-
-
+    @Override
+    public int compareTo(Human o) {
+        return name.compareTo(o.getName());
+    }
 }
 
